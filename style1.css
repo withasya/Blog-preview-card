@@ -1,0 +1,69 @@
+@font-face{
+    font-family: "Figtree ExtraBold";
+    font-family: "Figtree VariableFont";
+    font-family:"Figtree SemiBold";
+    font-family: "Figtree Light";
+    font-family:"Figtree Italic";
+}
+@media only screen and (max-width: 376px) {
+    .box_big{
+        margin-left:25px;
+        margin-right:20px;
+    }
+    body{
+        height:900px;
+    }
+}
+body{
+    display: flex;
+    background-color:hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.box_big{
+    border-style: outset;
+    border-color: black;
+    background-color: white;
+    border-radius: 16px;
+    width: 370px;
+    height: 550px;
+    box-shadow:5px 5px black;
+}
+.btn_learn{
+    margin-top: 5px;
+    background-color:hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-family: "Figtree ExtraBold";
+    border-style: none;
+    padding:5px 12px 5px ;
+    font-size: 14px;
+}
+.baslik1{
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Figtree SemiBold";
+}
+.baslik2:hover{
+    color:hsl(47, 88%, 63%) ;
+}
+.font_bold{
+    font-family: "Figtree ExtraBold";
+}
+.img_banner{
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    max-width: 370px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.p1{
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+.left_top_margin{
+    margin-left: 15px;
+    margin-top:15px;
+}
